@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  color: #fff;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #333;
+}
+.container {
+  padding: 5%;
+  border: 1px solid #ddd;
+  text-align: center;
+  width: min(800px, 95%);
+  height: min(400px, 95%);
+  display: grid;
+  place-content: center;
+  gap: 20px;
+}
+button {
+  width: max-content;
+  justify-self: center;
+  padding: 15px 40px;
+  font-size: 20px;
+  color: crimson;
+  font-weight: bold;
+  cursor: pointer;
+}
