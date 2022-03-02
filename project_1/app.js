@@ -17,6 +17,4 @@ function assignBg() {
   root.style.background = generateBg();
 }
 
-changer.addEventListener("click", function () {
-  root.style.background = generateBg();
-});
+changer.addEventListener("click", assignBg);
